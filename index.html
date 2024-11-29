@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Army Census</title>
+    <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+    <div class="main">
+        <h1 id="title">ARMY Survey Form</h1>
+        <p id="description"><i>Thenk you for taking time to help us to know how much of us are!</i></p>
+        <div class="main-content">
+            <div class="form-content">
+                <form id="survey-form">
+                    <label for="name" id="name-label">Name: <input type="text" name="name-label" id="name" placeholder="Enter name" required></label>
+                    <br />
+                    <label for="email" id="email-label">Email: <input type="email" name="email-label" id="email" placeholder="Enter Email" required></label>
+                    <br />
+                    <label for="number" id="number-label">Age: <input type="number" name="number-label" id="number" min="10" max="120" placeholder="Age" required></label>
+                    <br />
+                    <label for="dropdown" id="dropdown-label">Fan Since (Era):</label>
+                    <select id="dropdown">
+                        <option disabled selected value>Since which era:</option>
+                        <option value="2cool4skool">2 Cool 4 Skool</option>
+                        <option value="ORUL82">O!RUL8,2?</option>
+                        <option value="skoolaffair">Skool Luv Affair</option>
+                        <option value="darkswild">Dark & Wild</option>
+                        <option value="mostbeauty1">The Most Beautiful Moment In Life, Part1</option>
+                        <option value="mostbeauty2">The Most Beautiful Moment In Life, Part2</option>
+                        <option value="young">Young Forever</option>
+                        <option value="wings">Wings</option>
+                        <option value="ynwa">You Never Walk Alone</option>
+                        <option value="her">Love Yourself: Her</option>
+                        <option value="tear">Love Yourself: Tear</option>
+                        <option value="answer">Love Yoursef: Answer</option>
+                        <option value="persona">Map Of The Soul: Persona</option>
+                        <option value="seven">Map Of The Soul: 7</option>
+                        <option value="be">BE</option>
+                        <option value="butter">Butter - Permission to Dance</option>
+                        <option value="proof">Proof, Anthology</option>
+                    </select>
+                    <br /> 
+                    <br />
+                    <fieldset>
+                        <legend>What is your gender?</legend>
+                        <input type="radio" name="gender" checked id="female" value="female"><label for="female">Female</label>
+                        <br>
+                        <input type="radio" name="gender" checked id="masculine" value="masculine"><label for="masculine">Masculine</label>
+                        <br>
+                        <input type="radio" name="gender" checked id="nonbinarie" value="nonbinarie"><label for="nonbinarie">Non Binary</label>
+                        <br>
+                        <input type="radio" name="gender" checked id="noanswer" value="noanswer"><label for="noanswer">Don't wanna answer</label>
+                        <br>
+                    </fieldset>
+                    <br>
+                    <br>
+                    <p>Who is your Bias?</p>
+                    <input type="checkbox" id="rm" value="rm" name="rm"><label for="rm">RM</label>
+                    <br>
+                    <input type="checkbox" id="jin" value="jin" name="jin"><label for="jin">Jin</label>
+                    <br>
+                    <input type="checkbox" id="suga" value="suga" name="suga"><label for="suga">SUGA</label>
+                    <br>
+                    <input type="checkbox" id="jhope" value="jhope" name="jhope"><label for="jhope">J-Hope</label>
+                    <br>
+                    <input type="checkbox" id="jimin" value="jimin" name="jimin"><label for="jimin">Jimin</label>
+                    <br>
+                    <input type="checkbox" id="v" value="v" name="v"><label for="v">V</label>
+                    <br>
+                    <input type="checkbox" id="jungkook" value="jungkook" name="jungkook"><label for="jungkook">Jungkook</label>
+                    <br>
+
+
+
+                    <label for="song-album">What is your favorite album or song?</label>
+                    <textarea name="song-album" id="song-album" rows="5" cols="60">My favorite album is...</textarea>
+                    <button type="submit" id="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
